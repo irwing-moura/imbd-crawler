@@ -1,7 +1,9 @@
-package model;
+package com.overmind.imdbcrawler.model;
 
 
 import lombok.Data;
+
+import java.util.List;
 
 @Data
 public class Movie {
@@ -10,6 +12,6 @@ public class Movie {
     private String rating;
     private String[] directors;
     private String link;
-    private String actor;
+    private List<String> actors;
     private String positiveComment;
 }
