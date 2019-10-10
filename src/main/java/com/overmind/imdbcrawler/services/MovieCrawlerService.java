@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class SearchTenWorstMovies {
+public class MovieCrawlerService {
 
     public List<Movie> searchImdbWorstMovies() {
 
